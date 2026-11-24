@@ -354,3 +354,31 @@ Documentation, sanitized SQL deliverables, troubleshooting evidence, final Git h
 ---
 
 **Assignment:** SSB Digital – Junior DevOps / Web Operations Engineer Take-Home Assignment
+
+## Screenshots and Evidence
+
+The following screenshots demonstrate the application, database operations, deployment process, backup and restore procedures, and Linux environment.
+
+### 1. PHP Student Management Application
+![PHP Application](screenshots/01-php-application.png)
+
+### 2. phpMyAdmin Database and Student Records
+![phpMyAdmin](screenshots/02-phpmyadmin.png)
+
+### 3. SQL Operations
+![SQL Operations](screenshots/03-sql-operations.png)
+
+### 4. Rsync Deployment Dry Run
+![Rsync Dry Run](screenshots/04-rsync-dry-run.png)
+
+### 5. Successful Application Deployment
+![Deployment](screenshots/05-deployment.png)
+
+### 6. Database and Application Backup Verification
+![Backup Verification](screenshots/06-backup.png)
+
+### 7. Database Restore Verification
+![Database Restore](screenshots/07-restore.png)
+
+### 8. Linux, Apache, MariaDB and PHP Environment
+![LAMPP Environment](screenshots/08-lampp-environment.png)
