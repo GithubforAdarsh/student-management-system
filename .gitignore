@@ -1,0 +1,20 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Database credentials
+/config/database.php
+
+# Backups
+/backups/
+*.sql
+*.tar.gz
+*.bak
+
+# Logs
+*.log
+
+# Operating system
+.DS_Store
+Thumbs.db
