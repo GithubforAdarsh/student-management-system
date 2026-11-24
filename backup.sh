@@ -68,7 +68,14 @@ chmod 600 "$APP_BACKUP"
 
 echo "Application backup completed."
 
-# 3. Delete backups older than seven days
+# 3. Verify the newly created backups
+echo "Verifying backups..."
+
+bash "$PROJECT_DIR/verify_backup.sh" "$DB_BACKUP"
+
+echo "Backup verification completed successfully."
+
+# 4. Delete backups older than seven days
 echo "Cleaning old backups..."
 
 find "$BACKUP_DIR" \

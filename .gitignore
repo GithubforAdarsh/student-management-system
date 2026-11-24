@@ -18,3 +18,7 @@
 # Operating system
 .DS_Store
 Thumbs.db
+
+# Temporary and editor backup files
+*.bak
+*.pre-update.bak
